@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B9FFEB3B"
+    tools:context=".Categories">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Foodie_Food"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txtnme"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Categories"
+        android:textSize="30dp"
+        android:fontFamily="@string/fab_transformation_sheet_behavior"
+        android:textColor="#6D0B04"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/txtnme"
+        android:layout_marginTop="100dp">
+
+    </TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/categ_r_v"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/categ_r_v"
+        android:layout_marginTop="30dp"
+        android:text="Explore the meal and Have a nice day!!!"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:fontFamily="cursive"
+        android:textColor="#9C27B0"
+        android:id="@+id/txtexplo"
+
+></TextView>
+
+
+
+</RelativeLayout>

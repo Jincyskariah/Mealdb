@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="MainActivity"
+    android:background="#000">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Foodiesfeed"
+        android:textSize="40dp"
+        android:fontFamily="@string/fab_transformation_scrim_behavior"
+        android:textStyle="bold"
+        android:textColor="#FFC107"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="90dp"
+        >
+
+    </TextView>
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:src="@mipmap/bg"
+    android:alpha="0.5"
+    android:scaleType="centerCrop"
+
+    >
+
+</ImageView>
+<!--    <Button-->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/elevated"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Explore"
+        android:padding="10dp"
+        android:layout_margin="30dp"
+        android:textColor="#000"
+        app:cornerRadius="15dp"
+android:backgroundTint="#FFEB3B"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"/>
+
+
+
+</RelativeLayout>
